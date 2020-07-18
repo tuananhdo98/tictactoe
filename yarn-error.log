@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/Cellar/node/14.5.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received [Object: null prototype]
+      at validateString (internal/validators.js:121:11)
+      at Object.isAbsolute (path.js:1029:5)
+      at module.exports.exports.default (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:101023:16)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:51524:63
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "requires": true,
+    "lockfileVersion": 1,
+    "dependencies": {
+      "yarn": {
+        "version": "1.22.4",
+        "resolved": "https://registry.npmjs.org/yarn/-/yarn-1.22.4.tgz",
+        "integrity": "sha512-oYM7hi/lIWm9bCoDMEWgffW8aiNZXCWeZ1/tGy0DWrN6vmzjCXIKu2Y21o8DYVBUtiktwKcNoxyGl/2iKLUNGA=="
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
